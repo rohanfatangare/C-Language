@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	int num1,num2,temp;//initialising variables
+	printf("Enter the value of a and b\n");
+	scanf("%d %d",&num1,&num2);//accepting data from user.
+	temp=num1; //assign value of num1 to variable temp.
+	num1=num2; //assign value of num2 to num1.
+	num2=temp; //assign value of varible temp to num2.
+	printf("The value of a after swapping is %d\n",num1);
+	printf("The value of b after swapping is %d\n",num2);
+}
