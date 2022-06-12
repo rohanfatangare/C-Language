@@ -1,0 +1,18 @@
+//PROGRAMME FOR ARITHMETIC CALCULATIONS
+#include<stdio.h>
+main()
+{
+	float num1, num2, addition, substraction, multiplication, division, modulus; //variable declaration 
+	printf("Enter two values\n");
+	scanf("%f %f",&num1,&num2);
+	additiom = num1 + num2;
+	substraction = num1 - num2;
+	multiplication = num1 * num2;
+	division = num1 / num2;
+	modulus = num1 % num2;
+	printf("The sum of Number 1 and Number 2 is :  %f\n",addition);
+	printf("The substraction of Number 1 and Number 2 is : %f\n",substraction);
+	printf("The multiplication of Number 1 and Number 2 is : %f\n",multiplication);
+	printf("The division of Number 1 and Number 2 is : %f\n",division);
+	printf("The modulus of Number 1 and Number 2 is : %f\n",modulus);
+}
