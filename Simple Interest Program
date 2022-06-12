@@ -1,0 +1,18 @@
+// PROGRAMME FOR SIMPLE INTEREST 
+#include<stdio.h>
+main()
+{
+	float amount, simple_interest, roi=8.5; //Variables Declaration
+	int terms;
+	printf("Enter the amount\n");
+	scanf("%f",&amount);
+	printf("Enter Number of Years\n");
+	scanf("%d",&terms);
+	roi=8.5;
+	simple_interest = (amount*terms*roi) / 100; //Formula of Simple Interest
+	printf("Amount is : %f\n", amount);
+	printf("Number of Years is : %d\n", terms);
+	printf("Rate of interest is : %f\n", roi);
+	printf("Simple interest is : %f\n", simple_interest);
+}
+
