@@ -1,0 +1,34 @@
+//PROGRAMME FOR FIND PERCENTAGE AND THEIR CLASS//
+#include<stdio.h>
+main()
+{
+	float sub1,sub2,sub3,sub4,sub5,total,per;
+	printf("Enter the marks of five subject out of 100\n");
+	scanf("%f %f %f %f %f",&sub1,&sub2,&sub3,&sub4,&sub5);
+	total= sub1+sub2+sub3+sub4+sub5;
+	per= (total*100)/500;
+	printf("The total is %f\n",total);
+	printf("The percentage is %f\n",per);
+	{
+		if (per > 75)
+		{
+			printf("Congrats,You are in Dinstiction\n");
+		}
+		else if (per > 60)
+		{
+			printf("Congrats,You are in First Class\n");
+		}
+		else if (per > 50)
+		{
+			printf("Congrats,You are in Second Class\n");
+		}
+		else if (per >= 40)
+		{
+			printf("Congrats,You are in Pass\n");
+		}
+		else
+		{
+			printf("You are Failed\n");
+		}
+	}
+}
