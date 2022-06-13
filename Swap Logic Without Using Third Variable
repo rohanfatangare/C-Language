@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	int num1, num2;
+	printf("Enter Two Numbers: \n");
+	scanf("%d %d",&num1, &num2);
+	num1=num1+num2;
+	num2=num1-num2;
+	num1=num1-num2;
+	printf("The Value of First Number after swapping is: %d\n",num1);
+	printf("The Value of Second Number after swapping is: %d",num2);
+}
