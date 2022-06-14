@@ -1,0 +1,22 @@
+//PROGRAMME FOR PROFIT AND LOSS//
+#include<stdio.h>
+main()
+{
+	float cp,sp,profit,pp,lp;
+	printf("Enter Cost price of product\n");
+	scanf("%f",&cp);
+	printf("Enter the Selling price of product\n");
+	scanf("%f",&sp);
+		if (sp==cp)
+			printf("No profit No loss");
+		else if (sp>cp)
+		{
+			pp=((sp-cp)/100)*cp;
+			printf("You are in Profit and your Profit Percentage is %f\n",pp);
+		}
+		else
+		{
+			lp=((cp-sp)/100)*cp;
+			printf("You are in Loss and your Loss Percentage is %f\n",lp);
+		}
+}
