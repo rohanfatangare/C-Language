@@ -1,2 +1,2 @@
 # C-Language
-In this Repository, I upload some Programs/ exercises about C language.
+In this repository, I uploading some Programs/ exercises about C language.
