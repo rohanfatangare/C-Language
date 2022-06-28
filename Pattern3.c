@@ -9,4 +9,3 @@ main()
 		printf("%d ",k++);
 	}
 }
-	
