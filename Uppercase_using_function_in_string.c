@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 main() 
 { 
     char str[ ] = "Welcome to C programming language"; 
